@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: "Fraunces", serif;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.cont {
+    width: 900px;
+    margin: auto;
+    padding: 20px 0;
+}
+.touch {
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+}
+/* Start Header */
+.header .cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .cont .parts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cont .logo {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: "Fraunces", serif;
+    letter-spacing: -1px;
+}
+@media (max-width: 1199px) {
+    .header .cont .parts,
+    .header .cont a {
+        display: none;
+    }
+    .header .cont {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+/* End Header */
+/* Start one */
+.one .cont {
+    padding: 5px;
+}
+.one h3 {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "Fraunces", serif;
+    max-width: 600px;
+    white-space: wrap;
+    margin-bottom: 0;
+}
+.one p {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: "Fraunces", serif;
+    max-width: 500px;
+    white-space: wrap;
+    line-height: 1.6;
+}
+@media (max-width: 1199px) {
+    .one .cont {
+        max-width: 100%;
+    }
+}
+/* End one */
+/* Start Two */
+.two .cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    justify-content: space-between;
+}
+.two .cont p {
+    margin: 0;
+    margin-right: 5px;
+    text-align: center;
+    padding: 10px 20px;
+}
+@media (max-width: 1199px) {
+    .two .cont {
+        max-width: 100%;
+    }
+}
+/* End Two */
+/* Start Three */
+.three .cont {
+    padding: 5px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0 40px;
+}
+.three .cont .tex {
+    margin: 20px auto;
+    padding: 0;
+}
+.three .cont .tex a {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 25px;
+    font-family: "Fraunces", serif;
+    font-weight: 200;
+}
+.three .cont .tex a i {
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.three .cont .tex p {
+    font-size: 12px;
+    max-width: 100%;
+    line-height: 1.6;
+    color: #999;
+}
+.three .cont img {
+    max-width: 100%;
+}
+@media (max-width: 1199px) {
+    .three .cont {
+        max-width: 100%;
+        /* text-align: center; */
+    }
+    .three .cont .tex a {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .three .cont .tex p {
+        max-width: 100%;
+        display: block;
+    }
+}
+/* End Three */
+/* Start Four */
+.four {
+    background-color: #2e3038;
+}
+.four .cont {
+    padding: 20px 5px 40px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.four .cont h2 {
+    max-width: 100%;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: "Fraunces", serif;
+    font-weight: 300;
+}
+.four .cont p {
+    color: #999;
+    line-height: 1.5;
+    font-size: 13.5px;
+}
+@media (max-width: 1199px) {
+    .four .cont {
+        gap: 40px 0;
+        max-width: 100%;
+    }
+    .four .cont h3 {
+        max-width: 100%;
+    }
+    .four .cont p {
+        max-width: 100%;
+    }
+}
+/* End Four */
+/* Start Five */
+.five .cont {
+    max-width: 100%;
+    padding: 40px 5px;
+}
+.five .cont h3 {
+    font-size: 30px;
+    font-family: "Fraunces", serif;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.five .cont p {
+    max-width: 400px;
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.five .cont a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+/* End Five */
+/* Start Six */
+.six {
+    background-color: #2e3038;
+    padding: 0;
+    margin: 0;
+}
+.six .cont {
+    max-width: 100%;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.six .cont .icons i {
+    margin-right: 5px;
+    border-radius: 50%;
+}
+/* End Six */
