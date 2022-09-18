@@ -164,6 +164,7 @@ a {
     align-items: center;
     align-content: center;
     justify-content: center;
+    gap: 0 40px;
 }
 .four .cont h2 {
     max-width: 100%;
